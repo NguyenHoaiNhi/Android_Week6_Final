@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardBackgroundColor="#E4E4EC"
+        app:cardElevation="5dp"
+        android:layout_margin="2dp"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+
+        <LinearLayout
+                android:background="#4D00838F"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                        android:textSize="20dp"
+                        android:id="@+id/tvId"
+                        android:textColor="#1565C0"
+                        android:text="ID"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                                android:layout_marginLeft="20dp"
+                                android:textSize="25dp"
+                                android:id="@+id/tvTask"
+                                android:text="Nano measurement"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        <TextView
+                                android:text="Assigned to: Unassigned"
+                                android:layout_marginLeft="80dp"
+                                android:textSize="15dp"
+                                android:id="@+id/tvAsign"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
